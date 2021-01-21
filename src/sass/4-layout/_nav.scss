@@ -1,0 +1,38 @@
+.navContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+
+  &_navList {
+    position: relative;
+    padding: 1rem;
+
+    &-link {
+      a {
+        color: white;
+        text-decoration: none;
+        &:hover {
+          color: rgb(255, 247, 0);
+        }
+      }
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin: 5rem 0 5rem 0;
+      list-style: none;
+    }
+  }
+}
+.navContainer2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #f8c417;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
